@@ -1,0 +1,52 @@
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.container {
+  text-align: center;
+
+  font-size: 25px;
+  color: white;
+}
+table {
+  margin: auto;
+  padding-top: 2px;
+}
+#screen {
+  display: block;
+  font-size: 50px;
+  font-weight: bold;
+  /* border: 5px solid #7addd2; */
+  border-radius: 20px;
+  height: 150px;
+  width: 329px;
+  background-color: black;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+}
+button {
+  /* display: flex; */
+  opacity: 0.5;
+  font-size: 40px;
+  /* background-color: aqua; */
+
+  width: 81px;
+  height: 63px;
+  border-radius: 5px;
+}
+.calculator {
+  display: inline-block;
+  /* border: 7px solid rgb(36 116 215); */
+  /* background-color: #7addd2; */
+  border-radius: 8px;
+  height: 564px;
+}
+footer {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
